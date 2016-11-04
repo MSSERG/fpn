@@ -1,25 +1,25 @@
-﻿# MSSERG | 4.11.2016
+# MSSERG | 4.11.2016
 
 # Variable = Word
 
-# English;							Russian;
+# English;						Russian;
 
 e_habits="habits";					r_habits="привычки";
 e_bit="bit";						r_bit="немного";
-e_back_to_front="back to front";	r_back_to_front="начиная с последней страницы";
-e_iustance="iustance";				r_iustance="экземпляр";
-e_annoying="annoying";				r_annoying="раздрожать";
+e_back_to_front="back to front";			r_back_to_front="начиная с последней страницы";
+e_iustance="iustance";					r_iustance="экземпляр";
+e_annoying="annoying";					r_annoying="раздрожать";
 e_biting="biting";					r_biting="кусаться";
 e_nails="nails";					r_nails="ногти";
 e_being="being";					r_being="будучи";
 e_late="late";						r_late="поздно";
 e_locky="locky";					r_locky="повезло";
-e_healthy="healthy";				r_healthy="здоровый";
-e_jogging="jogging";				r_jogging="пробежка";
-e_brushir="brushir";				r_brushir="чистка";
+e_healthy="healthy";					r_healthy="здоровый";
+e_jogging="jogging";					r_jogging="пробежка";
+e_brushir="brushir";					r_brushir="чистка";
 e_teeth="teeth";					r_teeth="зубы";
 e_meals="meals";					r_meals="еда";
-e_unfortunately="unfortunately";	r_unfortunately="к сожалению";
+e_unfortunately="unfortunately";			r_unfortunately="к сожалению";
 
 e_mainly="mainly";					r_mainly="в основном";
 e_cause="cause";					r_cause="причина";
@@ -27,51 +27,51 @@ e_health="health";					r_health="здоровье";
 e_common="common";					r_common="общие";
 e_using="using";					r_using="используя";
 e_anger="anger";					r_anger="гнев";
-e_boredom="boredom";				r_boredom="скука";
-e_teenagers="teenagers";			r_teenagers="подростки";
-e_expensive="expensive";			r_expensive="дорогие";
-e_addictive="addictive";			r_addictive="привыкание";
+e_boredom="boredom";					r_boredom="скука";
+e_teenagers="teenagers";				r_teenagers="подростки";
+e_expensive="expensive";				r_expensive="дорогие";
+e_addictive="addictive";				r_addictive="привыкание";
 e_hard="hard";						r_hard="жёсткий";
 e_quit="quit";						r_quit="бросить однажды";
 e_once="once";						r_once="один раз";
 e_ruin="ruin";						r_ruin="разорение";
-e_someones="someonce";				r_someones="кто-то";
-e_damages="damages";				r_damages="ущерб";
+e_someones="someonce";					r_someones="кто-то";
+e_damages="damages";					r_damages="ущерб";
 e_lungs="lungs";					r_lungs="лёгкие";
 e_causes="causes";					r_causes="причины";
 e_concer="concer";					r_concer="рак";
-e_by_the_way="by the way";			r_by_the_way="кстати";
-e_disease="disease";				r_disease="болезнь";
+e_by_the_way="by the way";				r_by_the_way="кстати";
+e_disease="disease";					r_disease="болезнь";
 e_chain="chain";					r_chain="цепи";
-e_susceptible="susceptible";		r_susceptible="восприимчивый";
-e_strokes="strokes";				r_strokes="ударов";
-e_harmful="harmful";				r_harmful="вредные";
-e_surrounding="surrounding";		r_surrounding="окружающие";
-e_especially="especially";			r_especially="особенно";
-e_prengant="pregnant";				r_pregnant="беременная";
+e_susceptible="susceptible";				r_susceptible="восприимчивый";
+e_strokes="strokes";					r_strokes="ударов";
+e_harmful="harmful";					r_harmful="вредные";
+e_surrounding="surrounding";				r_surrounding="окружающие";
+e_especially="especially";				r_especially="особенно";
+e_prengant="pregnant";					r_pregnant="беременная";
 
 e_liver="liver";					r_liver="печень";
 e_kidney="kidney";					r_kidnay="почки";
-e_besides="besides";				r_besides="кроме того";
+e_besides="besides";					r_besides="кроме того";
 e_drunk="drunk";					r_drunk="пряные";
 e_drug="drug";						r_drug="препарат";
-e_addicts="addicts";				r_addicts="наркоманы";
-e_violent="violent";				r_violent="жестокие";
+e_addicts="addicts";					r_addicts="наркоманы";
+e_violent="violent";					r_violent="жестокие";
 e_easily="easily";					r_easily="легко";
 e_commit="commit";					r_commit="совершить";
 e_crime="crime";					r_crime="преступление";
-e_influence="influence";			r_influence="влияние";
-e_driving="driving";				r_driving="вождение";
+e_influence="influence";				r_influence="влияние";
+e_driving="driving";					r_driving="вождение";
 e_main="main";						r_main="главная";
 e_reason="reason";					r_reason="причина";
 e_car="car";						r_car="автомобиль";
-e_accident="accident";				r_accident="авария";
+e_accident="accident";					r_accident="авария";
 e_deaths="deaths";					r_deaths="смерть";
 e_impact="impact";					r_impact="влияние";
-e_breaking="breaking";				r_breaking="ломать";
-e_hardest="hardest";				r_hardest="трудная";
+e_breaking="breaking";					r_breaking="ломать";
+e_hardest="hardest";					r_hardest="трудная";
 e_try="try";						r_try="пытаться";
-e_scientists="scientists";			r_scientists="учёные";
+e_scientists="scientists";				r_scientists="учёные";
 e_state="state";					r_state="государство";
 e_treat="treat";					r_treat="лечить";
 e_body="body";						r_body="тело";
@@ -80,105 +80,105 @@ e_wold="wold";						r_wold="будет";
 e_place="place";					r_place="место";
 e_affect="affect";					r_affect="влиять";
 
-e_century="century";				r_century="век";
+e_century="century";					r_century="век";
 e_take="take";						r_take="взять";
-e_granted="granted";				r_granted="предоставлять";
-e_inventions="inventions";			r_inventions="изобретение";
+e_granted="granted";					r_granted="предоставлять";
+e_inventions="inventions";				r_inventions="изобретение";
 e_ever="ever";						r_ever="когда-либо";
 e_made="made";						r_made="сделать";
-e_significant="significant";		r_significant="значительное";
-e_howaday="howaday";				r_howaday="в наше время";
-e_affordable="affordable";			r_affordable="доступный";
+e_significant="significant";				r_significant="значительное";
+e_howaday="howaday";					r_howaday="в наше время";
+e_affordable="affordable";				r_affordable="доступный";
 e_almost="almost";					r_almost="почти";
 e_anyone="anyone";					r_anyone="каждый";
-e_connects="connects";				r_connects="соединения";
-e_arround="arround";				r_arround="вокруг";
-e_in_touch="in touch";				r_in_touch="на связи";
-e_relative="relative";				r_relative="родные";
-e_collegies="collegies";			r_collegies="коллеги";
+e_connects="connects";					r_connects="соединения";
+e_arround="arround";					r_arround="вокруг";
+e_in_touch="in touch";					r_in_touch="на связи";
+e_relative="relative";					r_relative="родные";
+e_collegies="collegies";				r_collegies="коллеги";
 e_modern="modern";					r_modern="современный";
-e_without="without";				r_without="без";
+e_without="without";					r_without="без";
 e_net="net";						r_net="сеть";
-e_transaction="transaction";		r_transaction="сделка";
+e_transaction="transaction";				r_transaction="сделка";
 e_manage="manage";					r_manage="управлять";
-e_accounts="accounts";				r_accounts="счета";
+e_accounts="accounts";					r_accounts="счета";
 e_pay="pay";						r_pay="платить";
 e_bills="bills";					r_bills="банкноты";
 e_send="send";						r_send="отправить";
-e_important="important";			r_important="важно";
-e_largest="largest";				r_largest="крупнейший";
+e_important="important";				r_important="важно";
+e_largest="largest";					r_largest="крупнейший";
 e_source="source";					r_source="источник";
-e_storing="storing";				r_storing="хранение";
+e_storing="storing";					r_storing="хранение";
 e_plenty="plenty";					r_plenty="много";
 e_useful="useful";					r_useful="полезный";
-e_science="science";				r_science="наука";
-e_coocking="coocking";				r_coocking="готовка";
+e_science="science";					r_science="наука";
+e_coocking="coocking";					r_coocking="готовка";
 
-e_subject="subject";				r_subject="предмет";
-e_practising="practising";			r_practising="практиковать";
-e_foreigh="foreigh";				r_foreigh="иностранный";
-e_learning="learning";				r_learning="обучаться";
-e_possible="possible";				r_possible="возможно";
+e_subject="subject";					r_subject="предмет";
+e_practising="practising";				r_practising="практиковать";
+e_foreigh="foreigh";					r_foreigh="иностранный";
+e_learning="learning";					r_learning="обучаться";
+e_possible="possible";					r_possible="возможно";
 e_saves="saves";					r_saves="экономия";
-e_choosing="choosing";				r_choosing="выбор";
-e_decirable="decirable";			r_decirable="желательный";
+e_choosing="choosing";					r_choosing="выбор";
+e_decirable="decirable";				r_decirable="желательный";
 e_price="price";					r_price="цена";
 e_thing="thing";					r_thing="вещь";
-e_personality="personality";		r_personality="характер человека";
+e_personality="personality";				r_personality="характер человека";
 e_jolly="jolly";					r_jolly="жизнерадостный";
-e_ease_going="ease-going";			r_ease_going="спокойный";
-e_friendly="friendly";				r_friendly="дружелюбный";
-e_reserved="reserved";				r_reserved="скрытый";
-e_distrustful="distrustful";		r_distrustful="недоверчивый";
-e_sociable="sociable";				r_sociable="общительный";
+e_ease_going="ease-going";				r_ease_going="спокойный";
+e_friendly="friendly";					r_friendly="дружелюбный";
+e_reserved="reserved";					r_reserved="скрытый";
+e_distrustful="distrustful";				r_distrustful="недоверчивый";
+e_sociable="sociable";					r_sociable="общительный";
 e_prefer="prefer";					r_prefer="предпочитать";
-e_loneliness="loneliness";			r_loneliness="одиночество";
-e_silence="silence";				r_silence="тишина";
-e_complicated="complicated";		r_complicated="сложный";
+e_loneliness="loneliness";				r_loneliness="одиночество";
+e_silence="silence";					r_silence="тишина";
+e_complicated="complicated";				r_complicated="сложный";
 e_part="part";						r_part="часть";
 
 e_events="events";					r_events="события";
 e_basic="basic";					r_basic="основной";
-e_sanguine="sanguine";				r_sanguine="сангвиник";
-e_communicative="communicative";	r_communicative="коммуникабельный";
+e_sanguine="sanguine";					r_sanguine="сангвиник";
+e_communicative="communicative";			r_communicative="коммуникабельный";
 e_fixate="fixate";					r_fixate="зацикливаться";
 e_calm="calm";						r_calm="спокойный";
-e_patient="patient";				r_patient="пациент";
+e_patient="patient";					r_patient="пациент";
 e_caring="caring";					r_caring="заботливый";
 e_exited="exited";					r_exited="возбуждённый";
-e_feithful="feithful";				r_feithful="верный";
-e_careful="careful";				r_careful="осторожный";
+e_feithful="feithful";					r_feithful="верный";
+e_careful="careful";					r_careful="осторожный";
 e_quiet="quiet";					r_quiet="тихий";
-e_disposed="disposed";				r_disposed="склонный";
+e_disposed="disposed";					r_disposed="склонный";
 e_sad="sad";						r_sad="грустный";
-e_thoughtful="thoughtful";			r_thoughtful="задумчивый";
+e_thoughtful="thoughtful";				r_thoughtful="задумчивый";
 e_moods="moods";					r_moods="настроение";
-e_restless="restless";				r_restless="непоседа";
+e_restless="restless";					r_restless="непоседа";
 e_strong="strong";					r_strong="сильный";
 e_leader="leader";					r_leader="лидер";
-e_inpossible="inpossible";			r_inpossible="невозможно";
+e_inpossible="inpossible";				r_inpossible="невозможно";
 
-e_divided="divided";				r_divided="разделённый";
+e_divided="divided";					r_divided="разделённый";
 e_into="into";						r_into="до";
 e_types="types";					r_types="типы";
-e_expressive="expressive";			r_expressive="выразительный";
-e_outgoing="outgoing";				r_outgoing="исходящий";
-e_impressions="impressions";		r_impressions="впечатление";
+e_expressive="expressive";				r_expressive="выразительный";
+e_outgoing="outgoing";					r_outgoing="исходящий";
+e_impressions="impressions";				r_impressions="впечатление";
 e_second="second";					r_second="второй";
-e_comfortable="comfortable";		r_comfortable="удобный";
-e_themselves="themselves";			r_themselves="сами";
+e_comfortable="comfortable";				r_comfortable="удобный";
+e_themselves="themselves";				r_themselves="сами";
 e_inside="inside";					r_inside="внутри";
 e_alone="alone";					r_alone="один";
 
-e_variety="variety";				r_variety="разнообразие";
-e_cheerful="cheerful";				r_cheerful="весёлый";
-e_unhappy="unhappy";				r_unhappy="несчастный";
-e_depending="depending";			r_depending="зависимость";
-e_general="general";				r_general="общий";
-e_outlook="outlook";				r_outlook="взгляд";
+e_variety="variety";					r_variety="разнообразие";
+e_cheerful="cheerful";					r_cheerful="весёлый";
+e_unhappy="unhappy";					r_unhappy="несчастный";
+e_depending="depending";				r_depending="зависимость";
+e_general="general";					r_general="общий";
+e_outlook="outlook";					r_outlook="взгляд";
 e_call="call";						r_call="вызов";
 e_former="former";					r_former="бывший";
-e_self_confident="self-confident";	r_self_confident="уверенный в себе";
+e_self_confident="self-confident";			r_self_confident="уверенный в себе";
 e_while="while";					r_while="промежуток времени";
 e_latter="latter";					r_latter="последний";
 
@@ -1744,14 +1744,7 @@ if(169>resuilt>=150):
 if(resuilt>=169):
 	print(" Вы закончили тест со следующим показателем: ",resuilt," слов из 170 слов! - Это ",resuilt_GOD)
 
-input()
-input()
-input()
-input()
-input()
 
-input()
-input()
 input()
 input()
 input()
