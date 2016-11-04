@@ -6,7 +6,7 @@
 
 e_habits="habits";					r_habits="привычки";
 e_bit="bit";						r_bit="немного";
-e_back_to_front="back to front";			r_back_to_front ="начиная с последней страницы";
+e_back_to_front="back to front";			r_back_to_front="начиная с последней страницы";
 e_iustance="iustance";					r_iustance="экземпляр";
 e_annoying="annoying";					r_annoying="раздрожать";
 e_biting="biting";					r_biting="кусаться";
