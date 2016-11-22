@@ -1,30 +1,30 @@
-﻿#	MSSERG	22.11.2016
+#	MSSERG	22.11.2016
 
-#	English				Russian
+#	English		Russian
 
-en_i="i";				ru_i="я";
-en_you1="you";			ru_you1="ты, вы";
-en_we="we";				ru_we="мы";
-en_they="they";			ru_they="они";
-en_he="he";				ru_he="он";
-en_she="she";			ru_she="она";
-en_it="it";				ru_it="это";
+en_i="i";		ru_i="я";
+en_you1="you";		ru_you1="ты, вы";
+en_we="we";		ru_we="мы";
+en_they="they";		ru_they="они";
+en_he="he";		ru_he="он";
+en_she="she";		ru_she="она";
+en_it="it";		ru_it="это";
 
-en_me="me";				ru_me="меня, мне";
-en_you2="you";			ru_you2="тебе, тебя";
-en_us="us";				ru_us="нас, нам";
-en_them="them";			ru_them="их, им";
-en_him="him";			ru_him="его, ему";
-en_her1="her";			ru_her1="её, ей";
-en_its1="its";			ru_its1="этому";
+en_me="me";		ru_me="меня, мне";
+en_you2="you";		ru_you2="тебе, тебя";
+en_us="us";		ru_us="нас, нам";
+en_them="them";		ru_them="их, им";
+en_him="him";		ru_him="его, ему";
+en_her1="her";		ru_her1="её, ей";
+en_its1="its";		ru_its1="этому";
 
-en_my="my";				ru_my="мой";
-en_your="your";			ru_your="твой";
-en_our="our";			ru_our="наш";
-en_their="their";		ru_their="их";
-en_his="his";			ru_his="его";
-en_her2="her";			ru_her2="её";
-en_its2="its";			ru_its2="этого";
+en_my="my";		ru_my="мой";
+en_your="your";		ru_your="твой";
+en_our="our";		ru_our="наш";
+en_their="their";	ru_their="их";
+en_his="his";		ru_his="его";
+en_her2="her";		ru_her2="её";
+en_its2="its";		ru_its2="этого";
 
 #	if input == otvet to the resuilt+=1
 
