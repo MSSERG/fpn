@@ -1,4 +1,4 @@
-﻿# MSSERG | 30.11.2016
+# MSSERG | 30.11.2016
 
 a = ' а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ь ы ъ э ю я\n'; b = ''; i = 0;
 
@@ -12,7 +12,7 @@ f = open( 'text.txt', 'w' )
 
 f.write( b )
 
-f.close
+f.close()
 
 input( 'запись завершена' )
 
@@ -20,6 +20,6 @@ f = open( 'text.txt', 'r' )
 
 print( f.read() )
 
-f.close
+f.close()
 
 input( 'чтение завершено' )
