@@ -1,4 +1,4 @@
-# MSSERG | 3.12.2016
+# MSSERG | 11.12.2016
 
 # http://vk.com/images/stickers/1/128.png
 
