@@ -1,0 +1,1208 @@
+﻿#=========================================================#
+#   dolg - гильдийский лут-фильтр | v.0.5 | 05.04.2018    #
+#=========================================================#
+
+Show
+Class                    "Stackable Currency"
+BaseType                 "Necromancy Net"
+SetTextColor             128 0 0
+SetBackgroundColor       0 0 0
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Show
+Class                    "Stackable Currency"
+BaseType                 "Thaumaturgical Net"
+SetTextColor             0 0 255
+SetBackgroundColor       0 0 0
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Show
+Class                    "Stackable Currency"
+BaseType                 "Strong Steel Net"
+SetTextColor             128 128 0
+SetBackgroundColor       0 0 0
+SetBorderColor           0 0 0
+SetFontSize              24
+
+
+Hide
+Class                    "Stackable Currency"
+BaseType                 "Reinforced Steel Net"
+SetTextColor             255 245 0
+SetBackgroundColor       56 56 56 200
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide
+Class                    "Stackable Currency"
+BaseType                 "Simple Steel Net"
+SetTextColor             255 245 0
+SetBackgroundColor       56 56 56 200
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide
+Class                    "Stackable Currency"
+BaseType                 "Strong Iron Net"
+SetTextColor             0 255 212
+SetBackgroundColor       56 56 56 200
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide
+Class                    "Stackable Currency"
+BaseType                 "Reinforced Iron Net"
+SetTextColor             0 255 212
+SetBackgroundColor       56 56 56 200
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide
+Class                    "Stackable Currency"
+BaseType                 "Simple Iron Net"
+SetTextColor             0 255 212
+SetBackgroundColor       56 56 56 200
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide
+Class                    "Stackable Currency"
+BaseType                 "Strong Rope Net"
+SetTextColor             255 255 255
+SetBackgroundColor       56 56 56 200
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide
+Class                    "Stackable Currency"
+BaseType                 "Reinforced Rope Net"
+SetTextColor             255 255 255
+SetBackgroundColor       56 56 56 200
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide
+Class                    "Stackable Currency"
+BaseType                 "Simple Rope Net"
+SetTextColor             255 255 255
+SetBackgroundColor       56 56 56 200
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Show # Древние предметы ----------------------------------#
+ElderItem                True
+Rarity                   <= Rare
+SetTextColor             255 40 0 220
+SetBackgroundColor       0 0 0
+SetBorderColor           255 40 0 220
+SetFontSize              24
+
+Show # Изменённые предметы -------------------------------#
+ShaperItem               True
+Rarity                   <= Rare
+SetTextColor             255 40 0 220
+SetBackgroundColor       0 0 0
+SetBorderColor           255 40 0 220
+SetFontSize              24
+
+Show
+Rarity                   <= Rare
+Class                    "Abyss Jewel"
+SetTextColor             255 0 255 245
+SetBackgroundColor       0 0 0 118
+SetBorderColor           255 110 255
+SetFontSize              24
+PlayAlertSoundPositional 3 250
+
+Show # [Атлас] Базы для крафта бижутерии -----------------#
+Rarity                   <= Rare
+Class                    "Belt"
+BaseType                 "Stygian Vise"
+SetTextColor             0 255 0
+SetBackgroundColor       0 0 0 97
+SetBorderColor           0 255 0
+SetFontSize              24
+
+Show
+Class                    "Piece"
+SetTextColor             221 0 255
+SetBackgroundColor       0 0 0
+SetBorderColor           221 0 255
+SetFontSize              24
+PlayAlertSoundPositional 7 270
+
+Show
+Class                    "Pantheon Soul"
+SetTextColor             221 0 255
+SetBackgroundColor       0 0 0
+SetBorderColor           221 0 255
+SetFontSize              24
+PlayAlertSoundPositional 7 270
+
+Show
+Class                    "Stackable Currency"
+BaseType                 "Mirror Shard"
+SetTextColor             255 0 0
+SetBackgroundColor       255 255 255 255
+SetBorderColor           255 0 0
+SetFontSize              45
+PlayAlertSoundPositional 1 300
+
+Show
+Class                    "Stackable Currency"
+BaseType                 "Exalted Shard"
+SetTextColor             255 0 0
+SetBackgroundColor       255 255 255 255
+SetBorderColor           255 0 0
+SetFontSize              45
+PlayAlertSoundPositional 1 300
+
+Hide
+Class                    "Stackable Currency"
+BaseType                 "Transmutation Shard" "Alteration Shard"
+SetTextColor             30 144 255
+SetBackgroundColor       3 52 102 218
+SetBorderColor           30 144 255
+SetFontSize              24
+
+Show
+Class                    "Stackable Currency"
+BaseType                 "Shard"
+SetTextColor             30 144 255
+SetBackgroundColor       3 52 102 218
+SetBorderColor           30 144 255
+SetFontSize              24
+
+Show # Обрывки карт --------------------------------------#
+Class                    "Map Fragments"
+BaseType                 "Divine Vessel"
+SetTextColor             200 200 200
+SetBackgroundColor       0 0 0
+SetBorderColor           200 200 200
+SetFontSize              24
+PlayAlertSoundPositional 7 270
+
+Show
+Class                    "Leaguestone"
+BaseType                 "Leaguestone"
+SetTextColor             221 0 255
+SetBackgroundColor       0 0 0
+SetBorderColor           221 0 255
+SetFontSize              24
+PlayAlertSoundPositional 7 270
+
+Show
+Class                    "Misc Map Items"
+BaseType                 "Ancient Reliquary Key"
+SetTextColor             255 165 0
+SetBackgroundColor       0 0 0
+SetBorderColor           255 215 0
+SetFontSize              24
+PlayAlertSoundPositional 1 300
+
+# Disabled Block End
+Show
+Class                    "Misc Map Items"
+BaseType                 "Breachstone"
+PlayAlertSoundPositional 7 270
+SetFontSize              24
+
+Show
+Class                    "Map Fragment"
+BaseType                 "Breachstone"
+SetTextColor             220 144 252
+SetBackgroundColor       106 5 148
+SetBorderColor           62 8 87 221
+SetFontSize              24
+PlayAlertSoundPositional 7 270
+
+Show
+Class                    "Stackable Currency"
+BaseType                 "Blessing"
+SetTextColor             255 108 196
+SetBackgroundColor       158 34 106
+SetBorderColor           210 0 220
+SetFontSize              24
+PlayAlertSoundPositional 3 250
+
+Show
+Class                    "Stackable Currency"
+BaseType                 "Splinter"
+SetTextColor             217 217 217
+SetBackgroundColor       106 5 148
+SetBorderColor           62 8 87 221
+SetFontSize              24
+PlayAlertSoundPositional 3 250
+
+Show
+Class                    "Rings"
+BaseType                 "Breach Ring"
+SetTextColor             201 71 255
+SetFontSize              24
+PlayAlertSoundPositional 2 250
+
+Show
+Class                    "Currency"
+BaseType                 "Remnant of Corruption"
+SetTextColor             255 62 62
+SetBackgroundColor       107 14 19 205
+SetBorderColor           252 58 58
+SetFontSize              24
+PlayAlertSoundPositional 3 150
+
+Show
+Class                    "Currency"
+BaseType                 "Essence"
+SetTextColor             30 188 255
+SetBackgroundColor       55 76 84 215
+SetBorderColor           30 188 255 194
+SetFontSize              24
+PlayAlertSoundPositional 3 150
+
+Show
+BaseType                 "Silver Coin"
+SetTextColor             221 0 255
+SetBackgroundColor       0 0 0
+SetBorderColor           221 0 255
+SetFontSize              24
+PlayAlertSoundPositional 3 250
+
+Show
+Class                    "Currency"
+BaseType                 "Prophecy"
+SetTextColor             177 75 255
+SetBackgroundColor       0 0 0
+SetBorderColor           0 0 0
+SetFontSize              24
+PlayAlertSoundPositional 9 300
+
+Show
+BaseType                 "Eber's Key" "Inya's Key" "Volkuur's Key" "Yriel's Key"
+SetTextColor             187 92 255
+SetBackgroundColor       0 0 0
+SetBorderColor           200 200 200
+SetFontSize              24
+PlayAlertSoundPositional 7 270
+
+Show
+BaseType                 "Perandus Coin"
+SetTextColor             255 249 124
+SetBackgroundColor       207 176 46 185
+SetBorderColor           253 255 0
+SetFontSize              24
+PlayAlertSoundPositional 3 250
+
+Show
+BaseType                 "Talisman"
+SetTextColor             165 214 17
+SetBackgroundColor       57 69 57
+SetBorderColor           165 214 17
+SetFontSize              24
+PlayAlertSoundPositional 3 250
+
+Show
+BaseType                 "Portal Scroll" "Scroll of Wisdom"
+SetTextColor             170 158 130
+SetFontSize              24
+
+Show
+BaseType                 "Eternal Orb" "Exalted Orb" "Divine Orb" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather"
+SetTextColor             255 0 0
+SetBackgroundColor       255 255 255 255
+SetBorderColor           255 0 0
+SetFontSize              45
+PlayAlertSoundPositional 1 300
+
+Show
+Class                    "Currency"
+BaseType                 "Armourer's Scrap" "Blacksmith's Whetstone" "Chromatic Orb" "Orb of Transmutation" "Orb of Augmentation" "Orb of Alteration" "Scroll Fragment" "Transmutation Shard" "Alteration Shard" "Alchemy Shard"
+SetTextColor             255 255 255
+SetBorderColor           0 0 255
+SetFontSize              24
+
+Show
+Class                    "Currency"
+BaseType                 "Cartographer's Sextant" "Cartographer's Seal"
+SetTextColor             242 78 117
+SetBorderColor           242 78 117
+SetFontSize              24
+PlayAlertSoundPositional 2 250
+
+Show
+Class                    "Currency"
+SetTextColor             242 78 117
+SetBorderColor           242 78 117
+SetFontSize              24
+PlayAlertSoundPositional 2 250
+
+Show
+Rarity                   = Unique
+Class                    "Flask"
+SetTextColor             175 96 37
+SetBackgroundColor       0 0 0
+SetBorderColor           175 96 37
+SetFontSize              24
+PlayAlertSoundPositional 4 250
+
+Show
+Rarity                   = Unique
+SetFontSize              24
+PlayAlertSoundPositional 4 250
+
+Show
+LinkedSockets            >= 5
+SetTextColor             52 234 204
+SetBackgroundColor       0 0 0
+SetBorderColor           52 234 204
+SetFontSize              24
+PlayAlertSoundPositional 2 250
+
+Show
+Sockets = 6
+SetTextColor             242 78 117
+SetBorderColor           30 144 255
+SetFontSize              24
+PlayAlertSoundPositional 2 250
+
+Hide # Три разноцветных соеденённых гнезда ---------------#
+SocketGroup              "RGB"
+Rarity                   = Normal
+SetTextColor             242 78 117
+SetBorderColor           30 144 255
+SetFontSize              24
+
+Hide # Три разноцветных соеденённых гнезда ---------------#
+SocketGroup              "RGB"
+Rarity                   = Magic
+SetTextColor             242 78 117
+SetBorderColor           30 144 255
+SetFontSize              24
+
+Hide # Каменный молот ------------------------------------#
+Rarity                   = Normal
+BaseType                 "Stone Hammer" "Rock Breaker" "Gavel"
+SetTextColor             242 78 117
+SetBorderColor           30 144 255
+SetFontSize              24
+
+Show
+Identified               False
+ItemLevel                > 59
+Rarity                   = Rare
+Class                    "Ring" "Amulet"
+BaseType                 "Amulet" "Ring" "Iron Ring" "Gold Ring" "Gold Amulet"
+SetTextColor             255 255 0
+SetBackgroundColor       0 0 0
+SetBorderColor           255 255 0
+SetFontSize              24
+
+Show # Пояса Хаосы - Цари --------------------------------#
+ItemLevel                > 59
+Identified               False
+Rarity                   = Rare
+Class                    "Belts"
+BaseType                 "Chain Belt" "Cloth Belt" "Heavy Belt" "Leather Belt" "Rustic Sash" "Studded Belt" "Vanguard Belt" "Crystal Belt" "Stygian Vise"
+SetTextColor             255 255 0
+SetBackgroundColor       0 0 0
+SetBorderColor           255 255 0
+SetFontSize              24
+
+Hide
+Rarity                   = Normal
+Class                    "Jewel"
+SetTextColor             255 110 255
+SetBackgroundColor       28 0 0
+SetBorderColor           255 110 255
+SetFontSize              24
+
+Hide
+Rarity                   = Magic
+Class                    "Jewel"
+SetTextColor             255 110 255
+SetBackgroundColor       28 0 0
+SetBorderColor           255 110 255
+SetFontSize              24
+
+Show
+Rarity                   = Rare
+Class                    "Jewel"
+SetTextColor             255 110 255
+SetBackgroundColor       28 0 0
+SetBorderColor           255 110 255
+SetFontSize              24
+PlayAlertSoundPositional 3 250
+
+Show
+Class                    "Labyrinth Map Item"
+SetTextColor             32 195 187
+SetBackgroundColor       50 20 20
+SetBorderColor           31 199 190
+SetFontSize              24
+PlayAlertSoundPositional 7 270
+
+# Labyrinth
+Show
+BaseType                 "Bane of the Loyal" "Cogs of Disruption" "Cube Of Absorption" "Heart of the Gargoyle" "Orb of Elemental Dispersion" "Portal Shredder" "Rod of Detonation" "Sand of Eternity"
+SetTextColor             32 195 187
+SetBackgroundColor       50 20 20
+SetBorderColor           31 199 190
+SetFontSize              24
+PlayAlertSoundPositional 6 100
+
+# Labyrinth Keys
+Show
+BaseType                 "Silver Key" "Treasure Key" "Golden Key"
+SetTextColor             32 195 187
+SetBackgroundColor       50 20 20
+SetBorderColor           31 199 190
+SetFontSize              24
+PlayAlertSoundPositional 6 100
+
+Show # Гадальные карты -----------------------------------#
+Class                    "Divination Card"
+SetTextColor             0 255 0
+SetBorderColor           0 255 0
+SetFontSize              24
+PlayAlertSoundPositional 7 300
+
+Show # Атлас Миров ---------------------------------------#
+Class                    "Map" "Fragments"
+BaseType                 "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Hydra"
+SetTextColor             250 107 250
+SetBackgroundColor       50 8 77 190
+SetBorderColor           176 81 176
+SetFontSize              24
+PlayAlertSoundPositional 7 270
+
+Show
+BaseType                 "Mortal Ignorance" "Mortal Rage" "Mortal Grief" "Mortal Hope"
+SetTextColor             255 0 0
+SetBackgroundColor       0 0 0
+SetBorderColor           255 0 0
+SetFontSize              24
+PlayAlertSoundPositional 7 270
+
+Show # Обрывки карт --------------------------------------#
+Class                    "Map Fragments"
+SetTextColor             200 200 200
+SetBackgroundColor       0 0 0
+SetBorderColor           200 200 200
+SetFontSize              24
+PlayAlertSoundPositional 7 270
+
+Show
+ShapedMap                True
+DropLevel                >= 73
+Class                    "Maps"
+SetTextColor             255 0 0
+SetBorderColor           255 0 0
+SetFontSize              24
+PlayAlertSoundPositional 7 270
+
+Show
+ShapedMap                True
+Class                    "Maps"
+SetBackgroundColor       96 96 0
+SetFontSize              24
+PlayAlertSoundPositional 7 270
+
+Show
+DropLevel                >= 78
+Class                    "Maps"
+SetTextColor             255 0 0
+SetBorderColor           255 0 0
+SetFontSize              24
+PlayAlertSoundPositional 7 270
+
+Show
+DropLevel                >= 73
+Class                    "Maps"
+SetTextColor             0 0 255
+SetBorderColor           0 0 255
+SetFontSize              24
+PlayAlertSoundPositional 7 270
+
+Show
+DropLevel                >= 68
+Class                    "Maps"
+SetTextColor             255 255 255
+SetBorderColor           255 255 255
+SetFontSize              24
+PlayAlertSoundPositional 7 270
+
+Show
+Class                    "Maps"
+SetTextColor             255 255 255
+SetFontSize              24
+PlayAlertSoundPositional 7 270
+
+Show
+Class                    "Gem"
+BaseType                 "Vaal"
+SetFontSize              24
+
+Show
+Class                    "Gem"
+BaseType                 "Empower" "Enlighten" "Vaal Breach" "Item Quantity Support"
+SetTextColor             30 144 255
+SetBorderColor           30 144 255
+SetFontSize              24
+PlayAlertSoundPositional 1 300
+
+Show
+Quality                  > 0
+Class                    "Gem"
+SetTextColor             30 144 255
+SetBorderColor           30 144 255
+SetFontSize              24
+
+Show # Редкие камни --------------------------------------#
+Class                    "Gem"
+BaseType                 "Increased Duration" "Added Chaos Damage" "Detonate Mines" "Enhance" "Portal"
+SetTextColor             30 144 255
+SetBackgroundColor       0 0 0 0
+SetBorderColor           30 144 255
+SetFontSize              24
+
+Hide
+Class                    "Gem"
+SetTextColor             30 144 255
+SetBackgroundColor       0 0 0 0
+SetBorderColor           30 144 255
+SetFontSize              24
+
+Hide # Полезные Флаконы ----------------------------------#
+Class                    "Utility Flasks"
+SetTextColor             144 201 116
+SetBackgroundColor       0 0 0
+SetBorderColor           103 140 86
+SetFontSize              24
+
+Hide # Флаконы с качеством больше 0% ---------------------#
+Quality                  > 0
+Class                    "Flasks"
+SetTextColor             151 217 145
+SetBackgroundColor       255 255 255 0
+SetBorderColor           151 217 145
+SetFontSize              24
+
+Show
+ItemLevel                <= 55
+DropLevel                <= 55
+Class                    "Flasks"
+SetTextColor             211 211 211
+SetBackgroundColor       0 0 0 0
+SetBorderColor           211 211 211
+SetFontSize              24
+
+Show
+Class                    "Quest Items"
+SetTextColor             50 230 100
+SetBackgroundColor       44 22 8
+SetBorderColor           74 230 58
+SetFontSize              24
+PlayAlertSoundPositional 6 70
+
+Hide # Базы для шанса уникальных предметов ---------------#
+Rarity                   = Normal
+BaseType                 "Agate Amulet" "Two-Stone Ring" "Diamond Ring" "Leather Belt" "Sorcerer Boots" "Glorious Plate" "Deicide Mask" "Occultist's Vestment" "Prophecy Wand"
+SetTextColor             125 125 125
+SetBorderColor           125 125 125
+SetFontSize              24
+
+Hide # [Атлас] Базы для крафта обуви ---------------------#
+Rarity                   <= Magic
+BaseType                 "Two-Toned Boots"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # [Атлас] Базы для крафта перчаток (сила) -----------#
+Rarity                   <= Magic
+BaseType                 "Spiked Gloves"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # [Атлас] Базы для крафта перчаток (ловкость) -------#
+Rarity                   <= Magic
+BaseType                 "Gripped Gloves"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # [Атлас] Базы для крафта перчаток (интеллект) ------#
+Rarity                   <= Magic
+BaseType                 "Fingerless Silk Gloves"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # [Атлас] Базы для крафта шлема (сила/интеллект) ----#
+Rarity                   <= Magic
+BaseType                 "Bone Helmet"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Show # [Атлас] Базы для крафта бижутерии -----------------#
+Rarity                   <= Magic
+Class                    "Ring"
+BaseType                 "Steel Ring" "Opal Ring"
+SetTextColor             0 0 0
+SetBackgroundColor       91 168 242 145
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # [Атлас] Базы для крафта бижутерии -----------------#
+Rarity                   <= Magic
+Class                    "Amulet"
+BaseType                 "Blue Pearl Amulet" "Marble Amulet"
+SetTextColor             0 0 0
+SetBackgroundColor       91 168 242 145
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Show # [Атлас] Базы для крафта бижутерии -----------------#
+Rarity                   <= Magic
+Class                    "Belt"
+BaseType                 "Vanguard Belt" "Crystal Belt"
+SetTextColor             0 0 0
+SetBackgroundColor       91 168 242 145
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide
+Rarity                   <= Magic
+BaseType                 "Sacrificial Garb"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Gloves"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide
+ItemLevel                > 82
+Rarity                   <= Magic
+Class                    "Daggers" "Bows"
+BaseType                 "Ambusher" "Harbinger Bow" "Platinum Kris" "Sai"
+SetTextColor             0 0 0
+SetBackgroundColor       237 149 165 141
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide #  Базы для крафта бижутерии уровня предмета 84+ ----#
+ItemLevel                > 83
+Rarity                   <= Magic
+Class                    "Ring" "Amulet" "Belts"
+SetTextColor             0 0 0
+SetBackgroundColor       91 168 242 145
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта брони (сила) IL 84+ ---------------#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Glorious Plate" "Gladiator Plate" "Astral Plate" "Crusader Plate" "Golden Plate"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта брони (ловкость) IL 84+ -----------#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Assassin's Garb" "Zodiac Leather" "Exquisite Leather" "Destiny Leather" "Sharkskin Tunic"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта брони (интеллект) IL 84+ ----------#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Vaal Regalia" "Widowsilk Robe" "Occultist's Vestment" "Necromancer Silks" "Savant's Robe"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта брони (сила/ловкость) IL 84+ ------#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Triumphant Lamellar" "General's Brigandine" "Full Dragonscale" "Desert Brigandine" "Dragonscale Doublet"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта брони (сила/интеллект) IL 84+ -----#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Saintly Chainmail" "Saint's Hauberk" "Elegant Ringmail" "Conquest Chainmail" "Loricated Ringmail"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта брони (ловкость/интеллект) IL 84+ -#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Carnal Armour" "Sadist Garb" "Blood Raiment" "Varnished Coat" "Sentinel Jacket"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта обуви (сила) IL 84+ ---------------#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Titan Greaves" "Vaal Greaves"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта обуви (ловкость) IL 84+ -----------#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Slink Boots" "Stealth Boots"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта обуви (интеллект) IL 84+ ----------#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Sorcerer Boots" "Arcanist Slippers"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта обуви (сила/ловкость) IL 84+ ------#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Dragonscale Boots" "Hydrascale Boots"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта обуви (сила/интеллект) IL 84+ -----#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Crusader Boots" "Legion Boots"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта обуви (ловкость/интеллект) IL 84+ -#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Murder Boots" "Assassin's Boots"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта перчаток (сила) IL 84+ ------------#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Titan Gauntlets" "Vaal Gauntlets"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта перчаток (ловкость) IL 84+ --------#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Stealth Gloves" "Slink Gloves"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта перчаток (интеллект) IL 84+ -------#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Sorcerer Gloves" "Arcanist Gloves"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта перчаток (сила/ловкость) IL 84+ ---#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Dragonscale Gauntlets" "Hydrascale Gauntlets"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта перчаток (сила/интеллект) IL 84+ --#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Crusader Gloves" "Legion Gloves"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта перчей (ловкость/интеллект) IL 84+ #
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Murder Mitts" "Assassin's Mitts"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта шлема (сила) IL 84+ ---------------#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Eternal Burgonet" "Royal Burgonet"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта шлема (ловкость) IL 84+ -----------#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Lion Pelt" "Sinner Tricorne"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта шлема (интеллект) IL 84+ ----------#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Hubris Circlet" "Mind Cage"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта шлема (сила/ловкость) IL 84+ ------#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Nightmare Bascinet" "Pig-Faced Bascinet"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта шлема (сила/интеллект) IL 84+ -----#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Praetor Crown" "Prophet Crown"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта шлема (ловкость/интеллект) IL 84+ -#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Deicide Mask" "Vaal Mask"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта щита (сила) IL 84+ ----------------#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Colossal Tower Shield"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта щита (ловкость) IL 84+ ------------#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Imperial Buckler"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта щита (ловкость) IL 84+ ------------#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Titanium Spirit Shield" "Fossilised Spirit Shield"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта щита (сила/ловкость) IL 84+ -------#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Elegant Round Shield" "Cardinal Round Shield" "Spiny Round Shield" "Teak Round Shield"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта щита (сила/интеллект) IL 84+ ------#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Archon Kite Shield" "Mosaic Kite Shield" "Champion Kite Shield" "Branded Kite Shield"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта щита (ловкость/интеллект) IL 84+ --#
+ItemLevel                > 83
+Rarity                   <= Magic
+BaseType                 "Supreme Spiked Shield"
+SetTextColor             0 0 0
+SetBackgroundColor       181 164 74 170
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта оружия IL 83+ ---------------------#
+ItemLevel                > 82
+Rarity                   <= Magic
+BaseType                 "Karui Axe" "Siege Axe" "Reaver Axe" "Butcher Axe" "Vaal Hatchet" "Royal Axe" "Infernal Axe" "Runic Hatchet"
+SetTextColor             0 0 0
+SetBackgroundColor       237 149 165 141
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта оружия IL 83+ ---------------------#
+ItemLevel                > 82
+Rarity                   <= Magic
+BaseType                 "Sundering Axe" "Ezomyte Axe" "Vaal Axe" "Despot Axe" "Void Axe" "Fleshripper"
+SetTextColor             0 0 0
+SetBackgroundColor       237 149 165 141
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта оружия IL 83+ ---------------------#
+ItemLevel                > 82
+Rarity                   <= Magic
+BaseType                 "Imperial Bow" "Harbinger Bow" "Maraketh Bow"
+SetTextColor             0 0 0
+SetBackgroundColor       237 149 165 141
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта оружия IL 83+ ---------------------#
+ItemLevel                > 82
+Rarity                   <= Magic
+BaseType                 "Gemini Claw" "Terror Claw" "Imperial Claw" "Vaal Claw" "Eye Gouger" "Hellion's Paw" "Throat Stabber" "Great White Claw"
+SetTextColor             0 0 0
+SetBackgroundColor       237 149 165 141
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта оружия IL 83+ ---------------------#
+ItemLevel                > 82
+Rarity                   <= Magic
+BaseType                 "Sai" "Demon Dagger" "Imperial Skean" "Platinum Kris" "Ezomyte Dagger" "Ambusher" "Slaughter Knife" "Gutting Knife"
+SetTextColor             0 0 0
+SetBackgroundColor       237 149 165 141
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта оружия IL 83+ ---------------------#
+ItemLevel                > 82
+Rarity                   <= Magic
+BaseType                 "Behemoth Mace" "Nightmare Mace" "Auric Mace" "Pernarch" "Legion Hammer" "Gavel" "Tenderizer" "Ancestral Club"
+SetTextColor             0 0 0
+SetBackgroundColor       237 149 165 141
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта оружия IL 83+ ---------------------#
+ItemLevel                > 82
+Rarity                   <= Magic
+BaseType                 "Sambar Sceptre" "Void Sceptre" "Carnal Sceptre" "Vaal Sceptre" "Platinum Sceptre" "Opal Sceptre" "Tyrant's Sekhem" "Karui Sceptre"
+SetTextColor             0 0 0
+SetBackgroundColor       237 149 165 141
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта оружия IL 83+ ---------------------#
+ItemLevel                > 82
+Rarity                   <= Magic
+BaseType                 "Coronal Maul" "Terror Maul" "Imperial Maul" "Meatgrinder" "Piledriver" "Colossus Mallet" "Karui Maul"
+SetTextColor             0 0 0
+SetBackgroundColor       237 149 165 141
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта оружия IL 83+ ---------------------#
+ItemLevel                > 82
+Rarity                   <= Magic
+BaseType                 "Eclipse Staff" "Judgement Staff" "Imperial Staff" "Maelström Staff" "Ezomyte Staff" "Lathi" "Primordial Staff"
+SetTextColor             0 0 0
+SetBackgroundColor       237 149 165 141
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта оружия IL 83+ ---------------------#
+ItemLevel                > 82
+Rarity                   <= Magic
+BaseType                 "Tiger Hook" "Midnight Blade" "Eternal Sword" "Vaal Blade" "Legion Sword" "Gladius" "Corsair Sword" "Gemstone Sword"
+SetTextColor             0 0 0
+SetBackgroundColor       237 149 165 141
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта оружия IL 83+ ---------------------#
+ItemLevel                > 82
+Rarity                   <= Magic
+BaseType                 "Dragoon Sword" "Harpy Rapier" "Jewelled Foil" "Vaal Rapier" "Spiraled Foil" "Pecoraro" "Tempered Foil" "Dragonbone Rapier"
+SetTextColor             0 0 0
+SetBackgroundColor       237 149 165 141
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта оружия IL 83+ ---------------------#
+ItemLevel                > 82
+Rarity                   <= Magic
+BaseType                 "Exquisite Blade" "Infernal Sword" "Lion Sword" "Vaal Greatsword" "Ezomyte Blade" "Reaver Sword" "Headman's Sword"
+SetTextColor             0 0 0
+SetBackgroundColor       237 149 165 141
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта оружия IL 83+ ---------------------#
+ItemLevel                > 82
+Rarity                   <= Magic
+BaseType                 "Profane Wand" "Prophecy Wand" "Tornado Wand" "Opal Wand" "Imbued Wand" "Demon's Horn"
+SetTextColor             0 0 0
+SetBackgroundColor       237 149 165 141
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide # Базы для крафта оружия IL 83+ ---------------------#
+ItemLevel                > 82
+Rarity                   <= Magic
+BaseType                 "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Broadhead Arrow Quiver" "Fire Arrow Quiver" "Blunt Arrow Quiver" "Sharktooth Arrow Quiver" "Two-Point Arrow Quiver" "Serrated Arrow Quiver"
+SetTextColor             0 0 0
+SetBackgroundColor       237 149 165 141
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Hide
+ItemLevel                > 82
+Rarity                   <= Magic
+SetTextColor             0 0 0
+SetBackgroundColor       234 234 234 186
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Show # 1~40 lvl ( 4 Links )
+LinkedSockets            = 4
+ItemLevel                <= 40
+DropLevel                <= 40
+Rarity                   = Magic
+SetTextColor             30 144 255
+SetBackgroundColor       0 0 0 129
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Show # 1~40 lvl ( 4 Links )
+LinkedSockets            = 4
+ItemLevel                <= 40
+DropLevel                <= 40
+Rarity                   = Normal
+SetTextColor             212 240 228
+SetBackgroundColor       0 0 0 129
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Show # 1~20 lvl ( 3 Links )
+LinkedSockets            = 3
+ItemLevel                <= 20
+DropLevel                <= 20
+Rarity                   = Magic
+SetTextColor             30 144 255
+SetBackgroundColor       0 0 0 129
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Show # 1~20 lvl ( 3 Links )
+LinkedSockets            = 3
+ItemLevel                <= 20
+DropLevel                <= 20
+Rarity                   = Normal
+SetTextColor             212 240 228
+SetBackgroundColor       0 0 0 129
+SetBorderColor           0 0 0
+SetFontSize              24
+
+Show
+ItemLevel                <= 13
+DropLevel                <= 13
+Rarity                   = Magic
+SetTextColor             30 144 255
+SetBackgroundColor       0 0 0 0
+SetBorderColor           0 0 0 0
+SetFontSize              24
+
+Show
+ItemLevel                <= 13
+DropLevel                <= 13
+Rarity                   = Normal
+SetTextColor             212 240 228
+SetBackgroundColor       0 0 0 0
+SetBorderColor           0 0 0 0
+SetFontSize              24
+
+Show
+Corrupted                True
+Rarity                   = Rare
+SetTextColor             242 196 98 255
+SetBackgroundColor       0 0 0 255
+SetBorderColor           242 196 98 255
+SetFontSize              24
+
+#   Очистка ==============================================#
+
+Hide
+Rarity                   = Normal
+SetTextColor             127 127 127 192
+SetBackgroundColor       0 0 0 100
+SetFontSize              20
+
+Hide
+Rarity                   = Magic
+SetTextColor             54 100 146 192
+SetBackgroundColor       0 0 0 100
+SetFontSize              20
+
+Hide
+Rarity                   = Rare
+SetTextColor             54 100 146 192
+SetBackgroundColor       0 0 0 100
+SetFontSize              20
+
+#   Конец лут фильтра ====================================#
